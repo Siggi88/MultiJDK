@@ -2,10 +2,9 @@
 
 ## Building MultiJDK
 
-1. Create a directory called `jdks`.
-2. Download JDKs and **unpack** them into the `jdks` directory. The `bin` directory should be the first subdirectory of each JDK. (For example, the `java` command should be at `jdks/jdk-16.0.2/bin/java`)
-3. Edit `env.sh` to set your default JDK.
-4. Build with `docker build -t multijdk .`
+1. Download JDKs and **unpack** them into the `jdks` directory. The `bin` directory should be the first subdirectory of each JDK. (For example, the `java` command should be at `jdks/jdk-16.0.2/bin/java`)
+2. Edit `env.sh` to set your default JDK.
+3. Build with `docker build -t multijdk .`
 
 ## Using MultiJDK
 

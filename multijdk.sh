@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEFAULT_JDK=16
+DEFAULT_JDK=17
 
 if [ -z $JDK ]; then
 	# if JDK is not specified in environment variable
